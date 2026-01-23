@@ -78,67 +78,6 @@ pulse-landing/
 
 ---
 
-## 🚦 Getting Started
-
-### Prerequisites
-
-- Node.js 18+ (or Bun)
-- Supabase CLI (for local development)
-- Stripe account (for payments)
-
-### Environment Variables
-
-The following environment variables are required:
-
-```env
-# Supabase
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-SUPABASE_SERVICE_KEY=your_service_role_key
-
-# Stripe
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_WEBHOOK_SECRET=your_webhook_secret
-VITE_STRIPE_PRO_PRICE_ID=your_pro_plan_price_id
-```
-
-### Installation
-
-```bash
-# Install dependencies
-npm install
-# or
-bun install
-
-# Start development server
-npm run dev
-```
-
-### Database Setup
-
-Run the migrations to set up your database:
-
-```bash
-# Using Supabase CLI
-supabase db push
-
-# Or manually run the SQL files in order:
-# 1. supabase/migrations/initial-setup.sql
-# 2. supabase/migrations/20250123_create_waitlist.sql
-```
-
-### Deploy Edge Functions
-
-```bash
-# Deploy all edge functions
-supabase functions deploy create-checkout
-supabase functions deploy join-waitlist
-supabase functions deploy payments-webhook
-supabase functions deploy get-plans
-```
-
----
-
 ## 📋 User Flow
 
 ```
@@ -309,51 +248,12 @@ Requires Auth: 4000 0025 0000 3155
 
 ---
 
-## 📊 Waitlist Stats
-
-Query the `waitlist_stats` view for real-time metrics:
-
-```sql
-SELECT * FROM waitlist_stats;
-```
-
-Returns:
-- `total_signups` - All waitlist entries
-- `free_signups` - Free tier count
-- `pro_signups` - Pro tier count
-- `paid_users` - Completed payments
-- `signups_last_24h` - Recent activity
-- `signups_last_7d` - Weekly trend
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
 ## 📄 License
 
 This project is proprietary software. All rights reserved.
 
 ---
 
-## 📞 Support
-
-- **Discord**: [Join our community](https://discord.gg/pulse)
-- **Twitter**: [@PulseStream](https://twitter.com/pulsestream)
-- **Email**: support@pulse.stream
-
----
-
-<p align="center">
-  <strong>Built with ❤️ for the future of live streaming</strong>
-</p>
 <p align="center">
   WebGPU • WebCodecs • WASM • Zero Cloud
 </p>
