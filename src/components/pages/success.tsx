@@ -34,7 +34,7 @@ export default function Success() {
 
             {/* Heading */}
             <h1 className="text-4xl md:text-5xl font-bold text-[#F5F5F7] mb-4">
-              Welcome to Pulse Pro!
+              Welcome to pulse Pro!
             </h1>
 
             <p className="text-xl text-[#A0A3B1] mb-8">
@@ -66,7 +66,7 @@ export default function Success() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle2 className="w-5 h-5 text-[#00D9FF] flex-shrink-0 mt-0.5" />
-                  <span>We'll notify you as soon as Pulse launches (estimated Q2 2026)</span>
+                  <span>We'll notify you as soon as pulse launches (estimated Q2 2026)</span>
                 </li>
               </ul>
             </div>

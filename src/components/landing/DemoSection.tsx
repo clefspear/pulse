@@ -62,7 +62,7 @@ export default function DemoSection() {
 
             {/* Watermark for free tier demo */}
             <div className="absolute bottom-4 left-4 text-xs text-[#A0A3B1] font-mono opacity-60">
-              Powered by Pulse
+              Powered by pulse
             </div>
           </motion.div>
 

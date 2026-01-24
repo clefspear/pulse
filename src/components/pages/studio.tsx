@@ -67,7 +67,7 @@ export default function Studio() {
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="mb-8">
           <h1 className="text-4xl font-bold mb-2">
-            <span className="text-[#FF6B6B]">Pulse</span> Studio
+            <span className="text-[#FF6B6B]">pulse</span> Studio
           </h1>
           <p className="text-[#A0A3B1]">Professional live stream effects, running in your browser.</p>
         </div>

@@ -14,7 +14,7 @@ const pricingPlans = [
       "Background blur",
       "Basic overlays",
       "720p @ 30fps output",
-      "Pulse watermark",
+      "pulse watermark",
       "Community support"
     ],
     cta: "Start Free",

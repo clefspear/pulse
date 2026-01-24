@@ -15,7 +15,7 @@ export default function FooterSection() {
         >
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img src="/logo.png" alt="Pulse" className="h-12 w-12" />
+            <img src="/logo.png" alt="pulse" className="h-12 w-12" />
             <span className="text-2xl font-bold text-[#F5F5F7]">pulse</span>
           </div>
 
@@ -29,7 +29,7 @@ export default function FooterSection() {
           {/* Footer text */}
           <div className="pt-8 border-t border-[#3A3D4A] w-full">
             <p className="text-sm text-[#A0A3B1]">
-              © {new Date().getFullYear()} Pulse. Built with WebGPU, WebCodecs, and WASM.
+              © {new Date().getFullYear()} pulse. Built with WebGPU, WebCodecs, and WASM.
             </p>
             <div className="mt-4 flex items-center justify-center gap-2">
               <p className="text-sm text-[#A0A3B1]">Created by Peter Azmy</p>

@@ -142,7 +142,7 @@ export default function WaitlistSection() {
           }
           
           toast.success("You're on the list!", {
-            description: `We'll notify you at ${email} when Pulse launches.`,
+            description: `We'll notify you at ${email} when pulse launches.`,
           });
         } catch (error) {
           console.error('Waitlist signup error:', error);
@@ -197,7 +197,7 @@ export default function WaitlistSection() {
                 </div>
 
                 <p className="text-[#A0A3B1] mb-8">
-                  We'll email you at <span className="text-[#F5F5F7] font-semibold">{email}</span> when Pulse launches.
+                  We'll email you at <span className="text-[#F5F5F7] font-semibold">{email}</span> when pulse launches.
                 </p>
 
                 <div className="space-y-4">

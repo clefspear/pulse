@@ -1,7 +1,7 @@
-# Pulse - Browser-based Live Streaming Studio
+# pulse - Browser-based Live Streaming Studio
 
 <p align="center">
-  <img src="/public/logo.png" alt="Pulse Logo" width="120" height="120">
+  <img src="/public/logo.png" alt="pulse Logo" width="120" height="120">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 ## 🚀 Overview
 
-Pulse is a revolutionary browser-based live streaming studio that brings professional-grade video effects to anyone with a modern browser. This repository contains the **landing page and waitlist system** for the Pulse pre-launch campaign.
+pulse is a revolutionary browser-based live streaming studio that brings professional-grade video effects to anyone with a modern browser. This repository contains the **landing page and waitlist system** for the pulse pre-launch campaign.
 
 ### Key Features
 
@@ -72,7 +72,7 @@ pulse-landing/
 │       ├── initial-setup.sql  # Users, subscriptions tables
 │       └── 20250123_create_waitlist.sql  # Waitlist table
 └── public/
-    ├── logo.png               # Pulse logo
+    ├── logo.png               # pulse logo
     └── splashscreen.png       # OG image for social sharing
 ```
 

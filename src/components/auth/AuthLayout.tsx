@@ -11,7 +11,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
       <div className="max-w-md w-full px-4 relative z-10">
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-3 mb-6">
-            <img src="/logo.png" alt="Pulse" className="h-12 w-12" />
+            <img src="/logo.png" alt="pulse" className="h-12 w-12" />
             <span className="text-3xl font-bold text-[#F5F5F7]">pulse</span>
           </Link>
           <p className="text-[#A0A3B1] mt-2">

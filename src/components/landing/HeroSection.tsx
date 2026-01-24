@@ -37,7 +37,7 @@ export default function HeroSection() {
           >
             <img 
               src="/logo.png" 
-              alt="Pulse" 
+              alt="pulse" 
               className="h-24 w-24 md:h-32 md:w-32"
             />
           </motion.div>
