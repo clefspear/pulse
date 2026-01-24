@@ -74,8 +74,8 @@ export default function LoginForm() {
         <CardFooter className="flex flex-col space-y-4">
           <div className="text-sm text-center text-[#A0A3B1]">
             Don't have an account?{" "}
-            <Link to="/signup" className="text-[#FF6B6B] hover:text-[#ff5252] hover:underline">
-              Sign up
+            <Link to="/#waitlist" className="text-[#FF6B6B] hover:text-[#ff5252] hover:underline">
+              Join the waitlist
             </Link>
           </div>
         </CardFooter>
