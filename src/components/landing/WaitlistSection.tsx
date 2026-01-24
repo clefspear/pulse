@@ -11,6 +11,27 @@ import { CheckCircle2, Loader2 } from "lucide-react";
 export default function WaitlistSection() {
   const [email, setEmail] = useState("");
   const [selectedTier, setSelectedTier] = useState<"free" | "pro">("free");
+  
+  // Check if Supabase is configured
+  const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+  const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+  
+  if (!supabaseUrl || !supabaseKey || supabaseUrl.includes('szfalmcyhlpsftmwtzzr')) {
+    return (
+      <section id="waitlist" className="py-32 bg-[#252936] relative overflow-hidden">
+        <div className="container px-4 mx-auto relative z-10">
+          <div className="text-center">
+            <h2 className="text-4xl md:text-5xl font-bold text-[#F5F5F7] mb-4">
+              Configuration Error
+            </h2>
+            <p className="text-xl text-[#A0A3B1] max-w-2xl mx-auto">
+              Please check Supabase configuration. Contact support if this persists.
+            </p>
+          </div>
+        </div>
+      </section>
+    );
+  }
   const [isLoading, setIsLoading] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
   const [waitlistNumber, setWaitlistNumber] = useState<number | null>(null);
