@@ -1,6 +1,5 @@
 import { Suspense } from "react";
-import { Navigate, Route, Routes, useRoutes } from "react-router-dom";
-import routes from "tempo-routes";
+import { Navigate, Route, Routes,  } from "react-router-dom";
 import LoginForm from "./components/auth/LoginForm";
 import SignUpForm from "./components/auth/SignUpForm";
 import Dashboard from "./components/pages/dashboard";
@@ -51,7 +50,6 @@ function AppRoutes() {
           }
         />
       </Routes>
-      {import.meta.env.VITE_TEMPO === "true" && useRoutes(routes)}
     </>
   );
 }
